@@ -57,3 +57,7 @@
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.1
+
+[IvoryAjaxFileBundle]
+    git=http://github.com/egeloen/IvoryAjaxFileBundle.git
+    target=/bundles/Ivory/AjaxFileBundle
