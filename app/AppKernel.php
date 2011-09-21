@@ -19,7 +19,10 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             
             // Register the IvoryAjaxFileBundle
-            new \Ivory\AjaxFileBundle\IvoryAjaxFileBundle(),
+            new Ivory\AjaxFileBundle\IvoryAjaxFileBundle(),
+            
+            // Register the IvoryDemoBundle
+            new Ivory\DemoBundle\IvoryDemoBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
