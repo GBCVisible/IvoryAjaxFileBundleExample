@@ -1,5 +1,7 @@
+deps.lock
 web/bundles/
 app/bootstrap.php.cache
+app/config/parameters.ini
 app/cache/*
 app/logs/*
 build/
