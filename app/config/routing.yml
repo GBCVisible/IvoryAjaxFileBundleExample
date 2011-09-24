@@ -2,3 +2,7 @@
 #_internal:
 #   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #   prefix:   /_internal
+
+demo_bundle:
+    resource: "@IvoryDemoBundle/Controller/DemoController.php"
+    type: annotation

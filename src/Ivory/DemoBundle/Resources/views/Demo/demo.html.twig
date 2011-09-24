@@ -1,0 +1,17 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}Ivory ajax file bundle example{% endblock %}
+
+{% block body %}
+    {% if app.session.hasFlash("notice") %}
+        <div class="flash_notice">
+            {{ app.session.flash("notice") }}
+        </div>
+    {% endif %}
+
+    <form action="{{ path("demo") }}" method="POST" {{ form_enctype(form) }}>
+        {{ form_widget(form) }}
+
+        <input type="submit" />
+    </form>
+{% endblock %}
